@@ -245,7 +245,7 @@ a.brand:visited:hover {
 .nav li:hover a:link,
 .nav li:hover a:visited,
 .nav li.active a:link {
-  color: #333;
+  color: #ffffff;
 }
 .nav li a {
   padding-right: 0 !important;
