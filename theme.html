@@ -311,6 +311,14 @@
     {% endif %}
 
     {{ footer_meta }}
+      <script type="text/javascript">
+      var cover = {% if site.cover_photo %}'{{ site.cover_photo }}'{% else %}"{{ assets('images/cover-photo-1.jpg') }}"{% endif %};
+      (function(d, t) {
+          var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          g.src = "{{ assets('js/expanse.min.js') }}";
+          s.parentNode.insertBefore(g, s);
+      }(document, 'script'));
+    </script>
 
     <script src="http://postach.io/static/themes/_assets/bootstrap/js/bootstrap.min.js" /></script>
 
