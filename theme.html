@@ -58,34 +58,8 @@
       {{ login_form }}
 
     {% else %}
-<<<<<<< HEAD
-    <header{% if is_post %} class="short"{% endif %}>
-      <div class="bg"></div>
-      <div class="spinner"></div>
-      <div class="shadow top"></div>
-      <div class="overlay"></div>
-      <img src="{{ assets('images/cover-photo-1.jpg') }}" class="rainbow" />
-      <div class="container wide">
-        <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
-        {% if pages %}
-        <ul class="cover-nav">
-          <li><a href="{{ site.base_url }}">Home</a></li>
-          <li><a href="/tag/news" class="{{ set_active('/tag/news') }}">News</a></li>
-            
-                  <li><a href="/tag/discography" class="{{ set_active('/tag/discography') }}">Discography</a></li>
-                  <li><a href="/tag/works" class="{{ set_active('/tag/works') }}">Works</a></li>
-                  <li><a href="/tag/press" class="{{ set_active('/tag/press') }}">Press</a></li>
-                  <li><a href="/tag/blog" class="{{ set_active('/tag/blog') }}">Blog</a></li>
-                  <li><a href="/tag/press" class="{{ set_active('/tag/press') }}">Something</a></li>
-            {% for page in pages %}
-            <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-    </header>
-=======
->>>>>>> parent of 4281823... Update theme.html
+
+
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
