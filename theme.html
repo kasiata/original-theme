@@ -101,7 +101,10 @@
         {% if is_home or is_tag %}
 
           {% if is_tag %}
-         
+          <div class="row">
+            <h4>Showing all posts tagged #{{ tag }}:</h4>
+            <hr />
+          </div>
           {% endif %}
 
           {% if posts %}
